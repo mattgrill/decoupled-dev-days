@@ -1,0 +1,30 @@
+#!/usr/bin/env bash
+
+# Delete the old deployment
+./node_modules/.bin/now \
+  -t "$TOKEN" \
+  rm -y ddd
+
+# Deploy changes to a fresh URL
+./node_modules/.bin/now -C \
+  -t "$TOKEN" \
+  -n "ddd" \
+   ./build
+
+# Grab deploy URL
+deploy_url=$(
+ ./node_modules/.bin/now -t $TOKEN ls ddd |
+ awk '/ url/,EOF' |
+ tail -n +2 |
+ awk '{ print $1 }'
+)
+
+# @TODO Figure out what's happening with setting scaling values.
+# Scale it to a minimum of 1 instance (never sleep)
+# ./node_modules/.bin/now \
+#   -t "$TOKEN" \
+#   scale "$deploy_url" 1
+
+./node_modules/.bin/now \
+  -t "$TOKEN" \
+   alias set "$deploy_url" $DOMAINNAME
