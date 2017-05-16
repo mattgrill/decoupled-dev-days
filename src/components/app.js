@@ -13,6 +13,8 @@ import Sponsors from './sponsors';
 import Venue from './venue';
 import News from './news';
 
+import '../styles/base.css';
+
 const App = () => (
   <Router>
     <div>
