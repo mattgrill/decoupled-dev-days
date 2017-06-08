@@ -1,5 +1,58 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@font-face {
+    font-family: 'League Spartan';
+    src: url('fonts/leaguespartan-bold.eot');
+    src: url('fonts/leaguespartan-bold.eot?#iefix') format('embedded-opentype'),
+         url('fonts/leaguespartan-bold.woff2') format('woff2'),
+         url('fonts/leaguespartan-bold.woff') format('woff'),
+         url('fonts/leaguespartan-bold.ttf') format('truetype'),
+         url('fonts/leaguespartan-bold.svg#league_spartanbold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
 
 html, body {
   font-family: 'Roboto', sans-serif;
+}
+
+.logoWrapper {
+  width: 25%;
+  height: 25%;
+  margin: 10% auto;
+
+  font-family: 'League Spartan';
+  text-align: center;
+
+  h1, h3 {
+    color: #0074FF;
+  }
+
+  hr {
+    width: 60%;
+  }
+
+  svg.decoupledDevDays_logo {
+    width: 100%;
+    height: 100%;
+  }
+
+  .cls-1 {
+    fill: none;
+    stroke: #727272;
+    stroke-miterlimit: 10;
+  }
+  .cls-2 {
+    fill: #8f2c8e;
+  }
+  .cls-3 {
+    fill: #f0672f;
+  }
+  .cls-4 {
+    fill: #40b350;
+  }
+  .cls-5 {
+    fill: #0074ff;
+  }
+  .cls-6 {
+    fill: #fff;
+  }
 }

@@ -1,0 +1,14 @@
+{
+  "extends": "eslint-config-airbnb",
+  "root": true,
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+  "rules": {
+    "brace-style": ["error", "stroustrup"],
+    "react/jsx-filename-extension": [0],
+    "jsx-a11y/img-has-alt": [0],
+    "max-len": [0]
+  }
+}

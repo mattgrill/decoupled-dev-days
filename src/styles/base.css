@@ -1,3 +1,37 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto");
+@font-face {
+  font-family: 'League Spartan';
+  src: url("fonts/leaguespartan-bold.eot");
+  src: url("fonts/leaguespartan-bold.eot?#iefix") format("embedded-opentype"), url("fonts/leaguespartan-bold.woff2") format("woff2"), url("fonts/leaguespartan-bold.woff") format("woff"), url("fonts/leaguespartan-bold.ttf") format("truetype"), url("fonts/leaguespartan-bold.svg#league_spartanbold") format("svg");
+  font-weight: bold;
+  font-style: normal; }
+
 html, body {
   font-family: 'Roboto', sans-serif; }
+
+.logoWrapper {
+  width: 25%;
+  height: 25%;
+  margin: 10% auto;
+  font-family: 'League Spartan';
+  text-align: center; }
+  .logoWrapper h1, .logoWrapper h3 {
+    color: #0074FF; }
+  .logoWrapper hr {
+    width: 60%; }
+  .logoWrapper svg.decoupledDevDays_logo {
+    width: 100%;
+    height: 100%; }
+  .logoWrapper .cls-1 {
+    fill: none;
+    stroke: #727272;
+    stroke-miterlimit: 10; }
+  .logoWrapper .cls-2 {
+    fill: #8f2c8e; }
+  .logoWrapper .cls-3 {
+    fill: #f0672f; }
+  .logoWrapper .cls-4 {
+    fill: #40b350; }
+  .logoWrapper .cls-5 {
+    fill: #0074ff; }
+  .logoWrapper .cls-6 {
+    fill: #fff; }
