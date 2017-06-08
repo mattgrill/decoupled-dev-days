@@ -15,8 +15,6 @@ html, body {
 }
 
 .logoWrapper {
-  width: 25%;
-  height: 25%;
   margin: 10% auto;
 
   font-family: 'League Spartan';
@@ -27,12 +25,19 @@ html, body {
   }
 
   hr {
-    width: 60%;
+    width: 25%;
   }
 
   svg.decoupledDevDays_logo {
-    width: 100%;
+    width: 25%;
     height: 100%;
+  }
+
+  @media (max-width: 414px) {
+    svg.decoupledDevDays_logo {
+      width: 60%;
+      height: 100%;
+    }
   }
 
   .cls-1 {
