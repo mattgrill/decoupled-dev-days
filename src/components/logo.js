@@ -15,7 +15,7 @@ const Logo = () => (
     <h2>DEVELOPER DAYS</h2>
     <hr />
     <h3>New York City</h3>
-    <h4>August 18-20, 2017</h4>
+    <h4>August 19-20, 2017</h4>
   </div>
 );
 
