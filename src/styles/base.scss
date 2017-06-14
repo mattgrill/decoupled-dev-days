@@ -1,13 +1,49 @@
 @font-face {
-    font-family: 'League Spartan';
-    src: url('fonts/leaguespartan-bold.eot');
-    src: url('fonts/leaguespartan-bold.eot?#iefix') format('embedded-opentype'),
-         url('fonts/leaguespartan-bold.woff2') format('woff2'),
-         url('fonts/leaguespartan-bold.woff') format('woff'),
-         url('fonts/leaguespartan-bold.ttf') format('truetype'),
-         url('fonts/leaguespartan-bold.svg#league_spartanbold') format('svg');
-    font-weight: bold;
-    font-style: normal;
+  font-family: 'League Spartan';
+  src: url('fonts/leaguespartan-bold.eot');
+  src: url('fonts/leaguespartan-bold.eot?#iefix') format('embedded-opentype'),
+       url('fonts/leaguespartan-bold.woff2') format('woff2'),
+       url('fonts/leaguespartan-bold.woff') format('woff'),
+       url('fonts/leaguespartan-bold.ttf') format('truetype'),
+       url('fonts/leaguespartan-bold.svg#league_spartanbold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Arimo';
+  src: url('fonts/arimo-regular.eot');
+  src: url('fonts/arimo-regular.eot?#iefix') format('embedded-opentype'),
+       url('fonts/arimo-regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Arimo';
+  src: url('fonts/arimo-italic.eot');
+  src: url('fonts/arimo-italic.eot?#iefix') format('embedded-opentype'),
+       url('fonts/arimo-italic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Arimo';
+  src: url('fonts/arimo-bold.eot');
+  src: url('fonts/arimo-bold.eot?#iefix') format('embedded-opentype'),
+       url('fonts/arimo-bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Arimo';
+  src: url('fonts/arimo-bolditalic.eot');
+  src: url('fonts/arimo-bolditalic.eot?#iefix') format('embedded-opentype'),
+       url('fonts/arimo-bolditalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
 }
 
 html, body {
