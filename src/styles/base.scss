@@ -59,6 +59,7 @@ html, body {
   padding: 0;
   box-sizing: border-box;
   font: 1.2em/1.6em 'Roboto Condensed', sans-serif;
+  background: #eee url('images/background.png') repeat;
   color: #333;
 }
 
@@ -67,8 +68,10 @@ h1, h2, h3, h4 {
 }
 
 .logo-wrapper {
-  margin: 10% auto;
+  margin: 1rem auto;
+  padding: 2.5rem;
   text-align: center;
+  background-color: #fff;
 
   h1, h3 {
     color: #0074ff;
@@ -105,5 +108,11 @@ h1, h2, h3, h4 {
   }
   .cls-6 {
     fill: #fff;
+  }
+}
+
+@media (min-width: 414px) {
+  .logo-wrapper {
+    max-width: 960px;
   }
 }
