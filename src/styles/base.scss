@@ -1,38 +1,112 @@
 @font-face {
-    font-family: 'League Spartan';
-    src: url('fonts/leaguespartan-bold.eot');
-    src: url('fonts/leaguespartan-bold.eot?#iefix') format('embedded-opentype'),
-         url('fonts/leaguespartan-bold.woff2') format('woff2'),
-         url('fonts/leaguespartan-bold.woff') format('woff'),
-         url('fonts/leaguespartan-bold.ttf') format('truetype'),
-         url('fonts/leaguespartan-bold.svg#league_spartanbold') format('svg');
-    font-weight: bold;
-    font-style: normal;
+  font-family: 'League Spartan';
+  src: url('fonts/leaguespartan-bold.eot');
+  src: url('fonts/leaguespartan-bold.eot?#iefix') format('embedded-opentype'),
+       url('fonts/leaguespartan-bold.woff2') format('woff2'),
+       url('fonts/leaguespartan-bold.woff') format('woff'),
+       url('fonts/leaguespartan-bold.ttf') format('truetype'),
+       url('fonts/leaguespartan-bold.svg#league_spartanbold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto Condensed';
+  src: url('fonts/robotocondensed-regular.eot');
+  src: url('fonts/robotocondensed-regular.eot?#iefix') format('embedded-opentype'),
+       url('fonts/robotocondensed-regular.woff') format('woff'),
+       url('fonts/robotocondensed-regular.ttf') format('truetype'),
+       url('fonts/robotocondensed-regular.svg#roboto_condensedregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto Condensed';
+  src: url('fonts/robotocondensed-bold.eot');
+  src: url('fonts/robotocondensed-bold.eot?#iefix') format('embedded-opentype'),
+       url('fonts/robotocondensed-bold.woff') format('woff'),
+       url('fonts/robotocondensed-bold.ttf') format('truetype'),
+       url('fonts/robotocondensed-bold.svg#roboto_condensedbold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto Condensed';
+  src: url('fonts/robotocondensed-italic.eot');
+  src: url('fonts/robotocondensed-italic.eot?#iefix') format('embedded-opentype'),
+       url('fonts/robotocondensed-italic.woff') format('woff'),
+       url('fonts/robotocondensed-italic.ttf') format('truetype'),
+       url('fonts/robotocondensed-italic.svg#roboto_condenseditalic') format('svg');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Roboto Condensed';
+  src: url('fonts/robotocondensed-bolditalic.eot');
+  src: url('fonts/robotocondensed-bolditalic.eot?#iefix') format('embedded-opentype'),
+       url('fonts/robotocondensed-bolditalic.woff') format('woff'),
+       url('fonts/robotocondensed-bolditalic.ttf') format('truetype'),
+       url('fonts/robotocondensed-bolditalic.svg#roboto_condensedbolditalic') format('svg');
+  font-weight: bold;
+  font-style: italic;
 }
 
 html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font: 1.2em/1.6em 'Roboto Condensed', sans-serif;
+  background: #eee url('images/background.png') repeat;
+  color: #333;
+}
+
+h1 {
   font-family: 'League Spartan', sans-serif;
 }
 
-.logoWrapper {
-  margin: 10% auto;
+.logo-wrapper {
+  margin: 1rem auto;
+  padding: 2.5rem;
   text-align: center;
 
-  h1, h3 {
-    color: #0074FF;
+  h1 {
+    color: #0074ff;
+    line-height: 1em;
+    text-transform: uppercase;
+
+    .title-secondary {
+      color: #666;
+      font-size: 68%;
+      display: block;
+    }
   }
 
-  hr {
-    width: 25%;
+  .title-details {
+    font-size: 115%;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background-color: #fff;
+
+    .title-location {
+      color: #0074ff;
+      font-weight: bold;
+    }
+
+    .title-date {
+      color: #666;
+    }
   }
 
-  svg.decoupledDevDays_logo {
+  svg.decoupled-dev-days-logo {
     width: 25%;
     height: 100%;
   }
 
   @media (max-width: 414px) {
-    svg.decoupledDevDays_logo {
+    svg.decoupled-dev-days-logo {
       width: 60%;
       height: 100%;
     }
@@ -57,5 +131,11 @@ html, body {
   }
   .cls-6 {
     fill: #fff;
+  }
+}
+
+@media (min-width: 414px) {
+  .logo-wrapper {
+    max-width: 960px;
   }
 }
