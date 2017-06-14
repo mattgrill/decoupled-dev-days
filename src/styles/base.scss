@@ -11,42 +11,58 @@
 }
 
 @font-face {
-  font-family: 'Arimo';
-  src: url('fonts/arimo-regular.eot');
-  src: url('fonts/arimo-regular.eot?#iefix') format('embedded-opentype'),
-       url('fonts/arimo-regular.woff') format('woff');
+  font-family: 'Roboto Condensed';
+  src: url('fonts/robotocondensed-regular.eot');
+  src: url('fonts/robotocondensed-regular.eot?#iefix') format('embedded-opentype'),
+       url('fonts/robotocondensed-regular.woff') format('woff'),
+       url('fonts/robotocondensed-regular.ttf') format('truetype'),
+       url('fonts/robotocondensed-regular.svg#roboto_condensedregular') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Arimo';
-  src: url('fonts/arimo-italic.eot');
-  src: url('fonts/arimo-italic.eot?#iefix') format('embedded-opentype'),
-       url('fonts/arimo-italic.woff') format('woff');
-  font-weight: normal;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: 'Arimo';
-  src: url('fonts/arimo-bold.eot');
-  src: url('fonts/arimo-bold.eot?#iefix') format('embedded-opentype'),
-       url('fonts/arimo-bold.woff') format('woff');
+  font-family: 'Roboto Condensed';
+  src: url('fonts/robotocondensed-bold.eot');
+  src: url('fonts/robotocondensed-bold.eot?#iefix') format('embedded-opentype'),
+       url('fonts/robotocondensed-bold.woff') format('woff'),
+       url('fonts/robotocondensed-bold.ttf') format('truetype'),
+       url('fonts/robotocondensed-bold.svg#roboto_condensedbold') format('svg');
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Arimo';
-  src: url('fonts/arimo-bolditalic.eot');
-  src: url('fonts/arimo-bolditalic.eot?#iefix') format('embedded-opentype'),
-       url('fonts/arimo-bolditalic.woff') format('woff');
+  font-family: 'Roboto Condensed';
+  src: url('fonts/robotocondensed-italic.eot');
+  src: url('fonts/robotocondensed-italic.eot?#iefix') format('embedded-opentype'),
+       url('fonts/robotocondensed-italic.woff') format('woff'),
+       url('fonts/robotocondensed-italic.ttf') format('truetype'),
+       url('fonts/robotocondensed-italic.svg#roboto_condenseditalic') format('svg');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Roboto Condensed';
+  src: url('fonts/robotocondensed-bolditalic.eot');
+  src: url('fonts/robotocondensed-bolditalic.eot?#iefix') format('embedded-opentype'),
+       url('fonts/robotocondensed-bolditalic.woff') format('woff'),
+       url('fonts/robotocondensed-bolditalic.ttf') format('truetype'),
+       url('fonts/robotocondensed-bolditalic.svg#roboto_condensedbolditalic') format('svg');
   font-weight: bold;
   font-style: italic;
 }
 
 html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font: 1.2em/1.6em 'Roboto Condensed', sans-serif;
+  color: #333;
+}
+
+h1, h2, h3, h4 {
   font-family: 'League Spartan', sans-serif;
 }
 
@@ -55,11 +71,7 @@ html, body {
   text-align: center;
 
   h1, h3 {
-    color: #0074FF;
-  }
-
-  hr {
-    width: 25%;
+    color: #0074ff;
   }
 
   svg.decoupled-dev-days-logo {

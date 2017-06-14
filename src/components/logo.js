@@ -13,10 +13,8 @@ const Logo = () => (
     </svg>
     <h1>DECOUPLED</h1>
     <h2>DEVELOPER DAYS</h2>
-    <hr />
     <h3>New York City</h3>
     <h4>August 19-20, 2017</h4>
-    <hr />
     <p>Decoupled Dev Days is a small developer-focused conference for architects, developers, and businesspeople involved in implementing decoupled Drupal architectures.</p>
     <p>Decoupled Drupal is the use of Drupal as a content service for other non-Drupal applications, whether they are in native desktop or mobile, universal JavaScript, set-top boxes, IoT devices, conversational interfaces, or other technologies.</p>
     <p>The mission of Decoupled Dev Days is threefold: share best practices in sessions, discuss difficult shared problems in discussions, and build open-source projects in sprints.</p>
