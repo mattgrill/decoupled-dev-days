@@ -6,10 +6,14 @@ import {
 import '../styles/base.css';
 
 import Logo from './logo';
+import Footer from './footer';
 
 const App = () => (
   <Router>
-    <Logo />
+    <div>
+      <Logo />
+      <Footer />
+    </div>
   </Router>
 );
 
