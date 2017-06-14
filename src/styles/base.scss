@@ -63,7 +63,7 @@ html, body {
   color: #333;
 }
 
-h1, h2, h3, h4 {
+h1 {
   font-family: 'League Spartan', sans-serif;
 }
 
@@ -71,10 +71,33 @@ h1, h2, h3, h4 {
   margin: 1rem auto;
   padding: 2.5rem;
   text-align: center;
-  background-color: #fff;
 
-  h1, h3 {
+  h1 {
     color: #0074ff;
+    line-height: 1em;
+    text-transform: uppercase;
+
+    .title-secondary {
+      color: #666;
+      font-size: 68%;
+      display: block;
+    }
+  }
+
+  .title-details {
+    font-size: 115%;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background-color: #fff;
+
+    .title-location {
+      color: #0074ff;
+      font-weight: bold;
+    }
+
+    .title-date {
+      color: #666;
+    }
   }
 
   svg.decoupled-dev-days-logo {

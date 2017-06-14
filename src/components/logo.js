@@ -11,10 +11,11 @@ const Logo = () => (
       <path className="cls-5" d="M725.91,505.93c-32.43-41.26-64.9-60.15-84.24-111.15-19.34,51-51.82,69.89-84.25,111.15A107.71,107.71,0,0,0,533.85,565H749.49A107.72,107.72,0,0,0,725.91,505.93Z" transform="translate(-471.43 -300.59)" />
       <path className="cls-6" d="M749.49,565H533.85a108.18,108.18,0,1,0,215.64,0Z" transform="translate(-471.43 -300.59)" />
     </svg>
-    <h1>DECOUPLED</h1>
-    <h2>DEVELOPER DAYS</h2>
-    <h3>New York City</h3>
-    <h4>August 19-20, 2017</h4>
+    <h1>Decoupled <span className="title-secondary">Developer Days</span></h1>
+    <div className="title-details">
+      <div className="title-location">New York City</div>
+      <div className="title-date">August 19&ndash;20, 2017</div>
+    </div>
     <p>Decoupled Dev Days is a small developer-focused conference for architects, developers, and businesspeople involved in implementing decoupled Drupal architectures.</p>
     <p>Decoupled Drupal is the use of Drupal as a content service for other non-Drupal applications, whether they are in native desktop or mobile, universal JavaScript, set-top boxes, IoT devices, conversational interfaces, or other technologies.</p>
     <p>The mission of Decoupled Dev Days is threefold: share best practices in sessions, discuss difficult shared problems in discussions, and build open-source projects in sprints.</p>
