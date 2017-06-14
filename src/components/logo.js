@@ -1,8 +1,8 @@
 import React from 'react';
 
 const Logo = () => (
-  <div className="logoWrapper">
-    <svg className="decoupledDevDays_logo" data-name="Layer 7" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 339.08 450.69">
+  <div className="logo-wrapper">
+    <svg className="decoupled-dev-days-logo" data-name="Layer 7" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 339.08 450.69">
       <title>DecoupledDevDaysLogo</title>
       <path className="cls-1" d="M509.33,475.67a169,169,0,1,0,263.27,0C721.92,411.2,671.19,381.68,641,302,610.75,381.68,560,411.2,509.33,475.67Z" transform="translate(-471.43 -300.59)" />
       <path className="cls-2" d="M540.34,677.76a142.8,142.8,0,0,0,243.3-112.61H499A142.48,142.48,0,0,0,540.34,677.76Z" transform="translate(-471.43 -300.59)" />

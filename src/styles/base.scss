@@ -50,7 +50,7 @@ html, body {
   font-family: 'League Spartan', sans-serif;
 }
 
-.logoWrapper {
+.logo-wrapper {
   margin: 10% auto;
   text-align: center;
 
@@ -62,13 +62,13 @@ html, body {
     width: 25%;
   }
 
-  svg.decoupledDevDays_logo {
+  svg.decoupled-dev-days-logo {
     width: 25%;
     height: 100%;
   }
 
   @media (max-width: 414px) {
-    svg.decoupledDevDays_logo {
+    svg.decoupled-dev-days-logo {
       width: 60%;
       height: 100%;
     }
