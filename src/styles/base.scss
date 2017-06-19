@@ -67,7 +67,7 @@ h1 {
   font-family: 'League Spartan', sans-serif;
 }
 
-.logo-wrapper {
+.wrapper {
   margin: 1rem auto;
   padding: 2.5rem;
   text-align: center;
@@ -135,7 +135,7 @@ h1 {
 }
 
 @media (min-width: 414px) {
-  .logo-wrapper {
+  .wrapper {
     max-width: 960px;
   }
 }
