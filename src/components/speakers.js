@@ -3,11 +3,11 @@ import React from 'react';
 const speakerData = [
   {
     name: 'Stephen Fluin',
-    photo: 'http://via.placeholder.com/350x350',
+    photo: 'http://via.placeholder.com/150x150',
   },
   {
     name: 'Sally Young',
-    photo: 'http://via.placeholder.com/350x350',
+    photo: 'http://via.placeholder.com/150x150',
   },
   {
     name: 'Sebastian Siemssen',
