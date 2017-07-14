@@ -11,11 +11,15 @@ const speakerData = [
   },
   {
     name: 'Sebastian Siemssen',
-    photo: 'http://via.placeholder.com/350x350',
+    photo: 'http://www.zensations.at/sites/www.zensations.at/files/styles/user/public/pictures/picture-53-1457347824.jpg?itok=08syPKCc',
   },
   {
     name: 'Ed Faulkner',
-    photo: 'http://via.placeholder.com/350x350',
+    photo: 'https://s3.amazonaws.com/static.eaf4.com/headshot-square-2016-11-02+14.53.17.png',
+  },
+  {
+    name: 'Daniel Wehner',
+    photo: 'http://chapterthree.com/sites/default/files/pictures/picture-648-1445464786.png',
   },
 ];
 
