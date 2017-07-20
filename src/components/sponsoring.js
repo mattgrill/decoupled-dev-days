@@ -4,7 +4,7 @@ const Sponsoring = () => (
   <div class="sponsoring">
     <h1>Sponsoring</h1>
     <p>Join us at NBC Universal HQ, New York from Saturday August 19th- 20th. As a sponsor, you will have the opportunity to have your company name and brand at the forefront of the conference. With a platinum, gold, or silver level sponsorship, you will have maximum logo positioning on all conference digital media and communications. , which will allow you to not only recruit new talent but to also meet your peers and potential clients as well as contribute to our thriving NYC tech community. A Decoupled Dev Days sponsorship will allow you to market your organization  to showcase your brand and technical expertise and differentiate yourself from peers and competitors. Our sponsor packages are designed to help your business with the following:</p>
-    <ul style={{textAlign: left}}>
+    <ul>
       <li>Networking tech influencers, experts in the field, potential lead generation</li>
       <li>Brand Awareness</li>
       <li>Talent recruitment</li>
