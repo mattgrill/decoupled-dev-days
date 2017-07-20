@@ -12,10 +12,10 @@ const Footer = () => (
       - <Link to="sponsoring">
       Sponsoring
       </Link>
-      - <a href="http://bit.ly/2tJh1EL" target="_blank">Register</a>
-      - <a href="https://twitter.com/decoupleddays" target="_blank">Twitter</a>
-      - <a href="http://eepurl.com/cRLvXP" target="_blank">Newsletter Signup</a>
-      - <a href="mailto:decoupleddevdays@gmail.com" target="_blank">Email</a>
+      - <a href="http://bit.ly/2tJh1EL" target="_blank" rel="noopener noreferrer">Register</a>
+      - <a href="https://twitter.com/decoupleddays" target="_blank" rel="noopener noreferrer">Twitter</a>
+      - <a href="http://eepurl.com/cRLvXP" target="_blank" rel="noopener noreferrer">Newsletter Signup</a>
+      - <a href="mailto:decoupleddevdays@gmail.com" target="_blank" rel="noopener noreferrer">Email</a>
     </p>
   </div>
 );

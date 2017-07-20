@@ -7,7 +7,6 @@ import {
 import '../styles/base.css';
 
 import About from './about';
-import Sponsors from './sponsors';
 import Sponsoring from './sponsoring';
 import Logo from './logo';
 import Footer from './footer';
