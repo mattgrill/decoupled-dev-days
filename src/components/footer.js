@@ -6,10 +6,13 @@ import {
 const Footer = () => (
   <div className="footer">
     <p>
-      <Link to="about">
+      <Link to="/about">
       About
       </Link>
-      - <Link to="sponsoring">
+      - <Link to="/schedule">
+      Schedule
+      </Link>
+      - <Link to="/sponsoring">
       Sponsoring
       </Link>
       - <a href="http://bit.ly/2tJh1EL" target="_blank" rel="noopener noreferrer">Register</a>
