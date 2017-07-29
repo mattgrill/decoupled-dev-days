@@ -8,7 +8,7 @@ import '../styles/base.css';
 
 import About from './about';
 import Sponsoring from './sponsoring';
-import Schedule from './schedule';
+import Sponsors from './sponsors';
 import Logo from './logo';
 import Footer from './footer';
 
@@ -24,6 +24,7 @@ const App = () => (
       </div>
       <Route path="/about" component={About} />
       <Route path="/sponsoring" component={Sponsoring} />
+      <Route path="/sponsors" component={Sponsors} />
       <Route path="/schedule/:session?" component={Schedule} />
       <div className="info">
         <p>Decoupled Dev Days is a small developer-focused conference for architects, developers, and businesspeople involved in implementing decoupled Drupal architectures.</p>
