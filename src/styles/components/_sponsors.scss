@@ -1,0 +1,20 @@
+.sponsors {
+  max-width: 800px;
+  margin: 0 auto;
+  .gold, .silver {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  .sponsor {
+    padding: 1rem .5rem;
+    max-width: 255px;
+    flex-shrink: 2;
+  }
+
+  .sponsor img {
+    max-width: 100%;
+  }
+}
