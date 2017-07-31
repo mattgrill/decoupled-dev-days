@@ -1,6 +1,13 @@
 .sponsors {
   max-width: 800px;
   margin: 0 auto;
+
+  h1 {
+    margin-bottom: 50px;
+  }
+  h2 {
+    margin:0;
+  }
   .gold, .silver {
     display: flex;
     flex-direction: row;
