@@ -6,12 +6,18 @@
     flex-direction: row;
     flex-wrap: wrap;
     text-align: center;
+    align-items: center;
+    justify-content: center;
   }
 
   .sponsor {
-    padding: 1rem .5rem;
+    padding: 1rem .25rem;
     max-width: 255px;
     flex-shrink: 2;
+    svg {
+      width: 100%;
+      height: auto;
+    }
   }
 
   .sponsor img {
