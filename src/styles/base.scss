@@ -150,3 +150,13 @@ h1 {
   padding: 1rem;
   background-color: #fff;
 }
+
+.speakers {
+  .speaker {
+    img {
+      border-radius: 50%;
+      width: 150px;
+      height: auto;
+    }
+  }
+}
