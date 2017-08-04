@@ -9,6 +9,7 @@ import '../styles/base.css';
 import About from './about';
 import Sponsoring from './sponsoring';
 import Sponsors from './sponsors';
+import Schedule from './schedule';
 import Logo from './logo';
 import Footer from './footer';
 
