@@ -12,12 +12,22 @@ export default class Schedule extends React.Component {
       var l = (
         <Link to={`schedule/${key}`}>{row.title}</Link>
       )
-      rows.push(<p key={key}><span>{row.time}</span>: <strong>{l}</strong> {row.speakers}</p>);
+      rows.push(
+        <div className="schedule-session" key={key}>
+          <div className="schedule-time">{row.time}</div>
+          <div className="schedule-details">
+            <div className="schedule-title">{l}</div>
+            <div className="schedule-speaker">{row.speakers}</div>
+          </div>
+        </div>
+      );
     }
     var out = (
       <div className="schedule">
-        <h2>Schedule</h2>
-        {rows}
+        <h1>Schedule</h1>
+        <div className="content">
+          {rows}
+        </div>
       </div>
     );
     if (this.props.match.params.session) {
@@ -27,11 +37,13 @@ export default class Schedule extends React.Component {
         var speaker = (session.speakers) ? <h3>{session.speakers}</h3> : "";
         out = (
           <div className="session">
-            <h2>{session.title}</h2>
-            {speaker}
-            <p className="time">{session.time}</p>
-            <div className="description"  dangerouslySetInnerHTML={{ __html: session.description}} />
-            <Link to="/schedule">Back</Link>
+            <h1>{session.title}</h1>
+            <div className="content">
+              {speaker}
+              <p className="session-time">{session.time}</p>
+              <div className="session-description" dangerouslySetInnerHTML={{ __html: session.description}} />
+              <Link to="/schedule">Back to schedule</Link>
+            </div>
           </div>
         );
       }

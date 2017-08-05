@@ -6,31 +6,37 @@ import {
 
 import '../styles/base.css';
 
+import Index from './index';
 import About from './about';
-import Sponsoring from './sponsoring';
-import Sponsors from './sponsors';
 import Schedule from './schedule';
+import Venue from './venue';
+import Sponsors from './sponsors';
+import Sponsoring from './sponsoring';
 import Logo from './logo';
 import Nav from './nav';
 import Footer from './footer';
 
 const App = () => (
   <Router>
-    <div className="wrapper">
-      <header>
-        <div class="header-logo"><Logo /></div>
-        <div class="header-nav"><Nav /></div>
-      </header>
-      <Route path="/about" component={About} />
-      <Route path="/sponsoring" component={Sponsoring} />
-      <Route path="/sponsors" component={Sponsors} />
-      <Route path="/schedule/:session?" component={Schedule} />
-      <div className="content">
-        <p>Decoupled Dev Days is a small developer-focused conference for architects, developers, and businesspeople involved in implementing decoupled Drupal architectures.</p>
-        <p>Decoupled Drupal is the use of Drupal as a content service for other non-Drupal applications, whether they are in native desktop or mobile, universal JavaScript, set-top boxes, IoT devices, conversational interfaces, or other technologies.</p>
-        <p>The mission of Decoupled Dev Days is threefold: share best practices in sessions, discuss difficult shared problems in discussions, and build open-source projects in sprints.</p>
+    <div className="main">
+      <div className="main-first">
+        <Logo />
       </div>
-      <Footer />
+      <div className="main-second">
+        <header>
+          <Nav />
+        </header>
+        <Route exact path="/" component={Index} />
+        <Route path="/about" component={About} />
+        <Route path="/schedule/:session?" component={Schedule} />
+        <Route path="/venue" component={Venue} />
+        <Route path="/sponsors" component={Sponsors} />
+        <Route path="/sponsoring" component={Sponsoring} />
+        <div className="footer-sponsors">
+          <Sponsors />
+        </div>
+        <Footer />
+      </div>
     </div>
   </Router>
 );

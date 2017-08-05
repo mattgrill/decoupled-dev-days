@@ -1,5 +1,5 @@
 svg.decoupled-dev-days-logo {
-  width: 25%;
+  width: 60%;
   height: 100%;
 }
 
@@ -29,4 +29,35 @@ svg.decoupled-dev-days-logo {
 }
 .cls-6 {
   fill: #fff;
+}
+
+.header-logo {
+
+  h1 {
+    color: #0074ff;
+    line-height: 1em;
+    font-size: 1.2em;
+    text-transform: uppercase;
+
+    .title-secondary {
+      color: #666;
+      font-size: 68%;
+      display: block;
+    }
+  }
+  .title-details {
+    margin-bottom: 2rem;
+    padding: 0.75rem;
+    background-color: #fff;
+    line-height: 1.25em;
+
+    .title-location {
+      color: #0074ff;
+      font-weight: bold;
+    }
+
+    .title-date {
+      color: #666;
+    }
+  }
 }

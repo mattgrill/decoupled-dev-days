@@ -1,9 +1,33 @@
-.session {
-  .description {
-    text-align: left;
-  }
-}
-
 .schedule {
-  text-align: left;
+
+  .schedule-session {
+    display: table;
+    border-bottom: 1px dotted #ccc;
+    width: 100%;
+
+    &:after {
+      content: "";
+      clear: both;
+    }
+
+    .schedule-time {
+      float: left;
+      width: 25%;
+      padding: 0.5rem 0;
+    }
+
+    .schedule-details {
+      float: right;
+      width: 75%;
+      padding: 0.5rem 0;
+    }
+
+    .schedule-title a {
+      font-weight: bold;
+    }
+  }
+
+  .schedule-session:last-child {
+    border: 0;
+  }
 }

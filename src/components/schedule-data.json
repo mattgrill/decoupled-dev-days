@@ -2,91 +2,91 @@
     "registration": {
       "title": "Registration",
       "speakers": "",
-      "time": "8 - 9 am",
-      "description": "Sign in and meet up."
+      "time": "8:00–9:00am",
+      "description": "<p>Come early to mingle with fellow attendees as we set up for a day of exciting sessions. Volunteers will be at the ready with badges and swag from sponsors.</p>"
     },
     "opening-remarks": {
       "title": "Opening Remarks",
       "speakers": "Preston So and Matt Davis",
-      "time": "9:00 - 9:15",
-      "description": "Introductions"
+      "time": "9:00–9:15am",
+      "description": "<p>The kickoff to the inaugural edition of Decoupled Dev Days with Matt and Preston will give you insight into how this all came together, how Decoupled Dev Days works, and how it all ties into the future of Drupal.</p>"
     },
     "build-higher-faster": {
       "title": "Build Higher, Faster: Cardstack, Ember, and Community Leverage",
       "speakers": "Edward Faulkner",
-      "time": "9:15-10:05am",
+      "time": "9:15–10:05am",
       "description": "<p>Decoupled apps can deliver great experiences and do things that an older class of websites cannot. But so far they are relatively expensive, custom, and finicky. Organizations are forced to 'go it alone' and leave behind much of the value in the Drupal ecosystem.</p><p>But we are starting to pave superhighways over the cowpaths. There's no reason we can't 'Drupalize' the entire end-to-end experience of creating, customizing, and deploying a decoupled application, and this will enable a virtuous cycle of community investment and ecosystem growth.</p><p>The Ember community has a long track record (in Javascript years!) of balancing innovation with enough stability and standardization to foster a high degree of sharing. As a result, development tasks that would take weeks are often just a package install away. The Cardstack project is building on top of Ember to create an incrementally-adoptable family of open source libraries that let you leverage hard-won community best-practices for the important pieces of any practical application that go beyond what current Javascript frameworks cover:</p><ul><li>out-of-the-box data integrations (like Drupal, Wordpress, PostgreSQL, Shopify, etc)</li><li>authentication and authorization (integrated with your existing users where that makes sense)</li><li>end-user editorial experience (gain back the site-builder control you lost when you went decoupled)</li><li>nearly-one-click deployment that can orchestrate across many commodity hosting services and third-party APIs.</li></ul>"
     },
     "host-and-develop-your-decoupled-site": {
       "title": "Your PHP and Nginx Won't Be Enough to Host and Develop Your Decoupled Site",
       "speakers": "Michael Schmid",
-      "time": "10:15-11:05am",
+      "time": "10:15–11:05am",
       "description": "<p>Decoupled Drupal Sites not only bring exciting new technologies to us. They also require a new thinking around local development and hosting. Some questions that easily will come up:</p><ul><li>How do I develop Node locally with multiple Node versions, test CORS and ServerSideRendering locally and make overall sure that my Node App behaves locally the same as in production?</li><li>I want to use ServerSide Rendering of my Decoupled Site built in Node, how do I deploy, test and host that on a server?</li><li>I want to use a CDN to cache my GraphQL/REST/JsonAPI requests and also the ServerSide Rendering response, but how do I do that?</li></ul><p>At Amazee we have multiple Decoupled Sites running, all with enabled ServerSideRendering, CDNs and Reverse Proxies included! In this session I will show you how the power of Docker allows to develop Decoupled Drupal Sites with Node and ServerSideRendering with a breeze and also how to use the same Docker Tools to run them in staging and production. No Docker Knowledge required :)</p>"
     },
     "angular-drupal": {
       "title": "Angular and Drupal: A Compelling Combo",
       "speakers": "Stephen Fluin and Matt Davis",
-      "time": "11:15-12:05pm",
+      "time": "11:15am–12:05pm",
       "description": "<p>Angular calls itself the “One Framework”, and aims to be just that. Write your application once, and run it in the browser, on the server, as a mobile app, and more. The latest and greatest Angular has established itself as a mature, opinionated, forward thinking javascript framework with a robust ecosystem around it that can create compelling experiences for a wide variety of use cases.</p><p>This session will begin with an introduction to the new Angular, going over recommended practices like developing with TypeScript and Webpack, and peeking under the hood at how the compiler and the server side rendering functionality of Angular Universal work. We will also explore the ecosystem that has sprung up to make developing Angular applications enjoyable, from things like the CLI to static code analysis tools like Ngrev.</p><p>We will next be exploring how integration with Drupal projects can build on the most powerful aspects of both technologies. We will show off the Drupal community's best practices project in the fully decoupled application, Contenta Angular, and go over its use of ngrx4, as well as progressive web app enhancements like offline browsing capabilities. We’ll explore the roadmap of features being added to Contenta Angular, things like push notifications, automated HTTP/2 server push configurations with Firebase, and even the automatic scaffolding of components from your Drupal APIs! We’ll also look at how you can incorporate Angular components into your existing Drupal 8 sites with progressive decoupling tools like Decoupled Blocks.</p><p>The goal of this session is to provide an overview of the options building with Angular will open to you and your users. Attendees should expect to walk away with greater understanding of the capabilities and best practices of the framework and surrounding ecosystem, as well as new ideas about how to incorporate it into their next Drupal project.</p>"
     },
     "lunch": {
       "title": "Lunch",
       "speakers": "",
-      "time": "12:05-1:30pm",
-      "description": "Go eat people."
+      "time": "12:05–1:30pm",
+      "description": "<p>Lunch is on your own; grab a fellow attendee or speaker and venture out for some nosh!</p>"
     },
     "conscious-decoupling": {
-      "title": "Conscious Decoupling - A Business Case for Decoupled Architecture",
+      "title": "Conscious Decoupling: A Business Case for Decoupled Architecture",
       "speakers": "Mike Mangi",
-      "time": "1:30-1:55pm",
+      "time": "1:30–1:55pm",
       "description": "<p>This session will cover the business benefits of a decoupled CMS architecture. Going headless allows the freedom to invest in back-end upgrades or front-end redesigns a different times. It also provides the ability to better control and manage the user experience across channels in service of a larger omnichannel strategy. An API first approach can save costs down the road by making it easier to publish content to new channels or format it for new devices. And a decoupled architecture can increase the speed of future technology integrations. This session will also cover pitfalls and caveats to be aware of when considering a decoupled architecture, and provide tips on how to determine if decoupling is right for you.</p>"
     },
     "reservoir": {
       "title": "Reservoir: Drupal as Decoupled Content Store",
       "speakers": "Ted Bowman",
-      "time": "2-2:25pm",
+      "time": "2–2:25pm",
       "description": "<p>In June when we at Acquia’s OCTO introduced Reservoir we called it “a Distribution for Decoupling Drupal” but maybe that was a mistake. Reservoir is not about being a Drupal distribution, although it is one. It is not about decoupling Drupal. Reservoir is simply a content repository. It happens to be built on Drupal.</p><p>Reservoir isn’t just for Drupalists. Reservoir is for anyone who wants a self-hosted content repository to make use of in a front end or app. Reservoir is a project that aims to expand the user base of Drupal 8 beyond those already familiar the Drupal ecosystem. Keeping up with ever changing front-end technologies is hard enough. Reservoir aims to ease of the pain of making a decouple application not add to it.</p><ul><li>What does the future hold for Reservoir?</li><li>Is there a need for Reservoir in addition to Contenta?</li></ul>"
     },
     "contenta": {
-      "title": "Contenta - Drupal’s API Distribution",
+      "title": "Contenta: Drupal’s API Distribution",
       "speakers": "Sally Young and Daniel Wehner",
-      "time": "2:30-2:55pm",
+      "time": "2:30–2:55pm",
       "description": "<p>Contenta is a Drupal distribution that gives you modern API capabilities out-of-the box with JSON API, which amongst other features allows you to fetch nested resources in one request, and work-in-progress to include the similar GraphQL service. It’s ready to feed content to your JavaScript powered website, phone app, TV, or even the mythical fridge application.</p><p>Drupal is a leading content management system when it comes to building smart editorial experiences and content modelling, but the front-end needs of consumers have evolved rapidly away from traditional server-side rendered sites. From powering a single application, to multi-channel publishing, Contenta provides all the tools and configuration you need to get started with your Create Once, Publish Everywhere CMS.</p><p>With Contenta you can either start with a minimal blank slate, or try out the demo install which shows you how to solve some of the different problems encountered when developing and building in a decoupled situation. The demo install also provides many reference implementations of consumers in popular frameworks such as React, Angular, Elm, Ionic, and even an Alexa skill!</p><p>This session will lead you through a tour of Contenta’s current features and roadmap, including showing you what’s possible with Contenta’s reference applications that implement the Out-of-the-box Initiative’s cooking recipe site. There’ll be discussion on content model decisions we made to support our variety of consumers, as well as how we solved some common problems such as routing and rich text formats.</p><p>As a community led distribution, we’ll also show you how you can get involved with the project and join our fast growing army of Contenta contributors!</p>"
     },
     "using-jwt": {
       "title": "Using JSON Web Tokens (JWT) for REST authentication",
       "speakers": "Edward Chan",
-      "time": "3-3:25pm",
+      "time": "3:00-3:25pm",
       "description": "<p>This session will provide an introduction to JSON Web Tokens (JWT) (https://jwt.io/introduction/), advantages over other authentication methods, and how to use it to authenticate requests to Drupal REST resources. After this session, attendees will have a better understanding of how JWTs work and will be able to set up and use JWT for authenticating REST requests in Drupal.</p>"
     },
     "decoupled-user-interfaces": {
       "title": "Decoupled User Interfaces: Bridging the Gap",
       "speakers": "Jeremy Dickens",
-      "time": "3:30-3:55pm",
+      "time": "3:30–3:55pm",
       "description": "<p>The most common decoupled Drupal architectures have Drupal acting as a passive datastore for front-end consumers - a system whose relationship with the frontend is limited to acting as a content API. In this model, dynamic configuration changes to the presentation layer are handled almost exclusively by developers in code, which removes much of the configurability expected by experienced Drupal site maintainers. Likewise these architectures emphasize Drupal for its content management and editorial interface, which may be itself somewhat limited in some use cases from a UI/UX perspective.</p><p>During the course of an ongoing decoupling project for weather.com, the team found that the lack of page configurability was a distinct pain point for site administrators and product owners. They had grown accustomed to being able to modify not just content, but entire page layouts themselves using Panels. This functionality would have been lost with a traditional decoupled architecture.</p><p>With some coordination with the front-end development team, the team implemented a solution that allowed for the direct modification of page configuration on a completely decoupled front-end. Additionally, the editorial interface itself was decoupled from Drupal, allowing for a completely unique configuration management experience while allowing Drupal to shine as a data modeller, content repository and user authentication hub.</p><p>In this session, learn how the weather.com team implemented this architecture and see a brief demo of the Page Management System UI and API layers. Hear about lessons learned for others seeking a similar solution, and discuss other possibilities for both Drupal as a content middleware in a decoupled ecosystem and the future of using Drupal with non-standard user interfaces.</p>"
     },
     "webvr": {
       "title": "Building WebVR experiences with Drupal, React, and AFrame",
       "speakers": "Luke Harrington and Patrick Coffey",
-      "time": "4-4:25pm",
+      "time": "4:00–4:25pm",
       "description": "<p>Recently there have been strides in web-based VR which enables producers to publish VR experiences via the web. Four Kitchens has been keeping an eye on these technologies, and we want to share our experiences building real WebVR applications. In this session, we will:</p><ul><li>Introduce attendees to the technologies that power WebVR.</li><li>Compare and contrast current competing WebVR frameworks (Aframe, ReactVR, etc).</li><li>Dive into the toolchains and development cycles around building AFrame applications.</li><li>Cover modeling a JSON-API compliant Drupal API to power WebVR experiences.</li><li>Using Waterwheel and React to interface with Drupal APIs, and render dynamic experiences.</li></li>Demonstrate an alpha Drupal-backed WebVR editorial studio.</li></ul><p>Attendees should expect to leave this session with a firm understanding of the WebVR landscape, and the knowledge they need to get started building API-driven WebVR applications and experiences.</p><p>For a taste of the topics we’ll be covering, feel free to review the following resources:</p><ul><li>https://www.fourkitchens.com/blog/tag/vr</li><li>https://github.com/fourkitchens/aframe-boilerplate</li><li>http://vr.fourkitchens.com</li></ul>"
     },
     "closing": {
-      "title": "Closing Session",
+      "title": "Closing Remarks",
       "speakers": "Preston So and Matt Davis",
-      "time": "4:30 - 5:00PM",
-      "description": "Notes and stats for the day!"
+      "time": "4:30–5:00pm",
+      "description": "<p>Matt and Preston close out the day with information about the rest of the weekend, a retrospective on organizing Decoupled Dev Days, and statistics about how we did.</p>"
     },
     "after-party": {
-      "title": "Party Party Party",
-      "speakers": "",
-      "time": "TBD",
-      "description": ""
+      "title": "Decoupled Dev Days Happy Hour",
+      "speakers": "Ace Hotel New York Lobby, 29 W 29th St, New York, NY 10001",
+      "time": "6:00–9:00pm",
+      "description": "<p>Come join us at the official post-sessions happy hour on Saturday night to chat all things decoupled Drupal over hors d'oeuvres and libations.</p>"
     },
     "sprint": {
-      "title": "Sunday Sprints",
-      "speakers": "",
-      "time": "9a - 5p SUNDAY",
-      "description": "Where the rubber meets the road."
+      "title": "Sunday Code Sprints",
+      "speakers": "30 Rockefeller Plaza, New York, NY 10112",
+      "time": "9:00am–5:00pm Sunday",
+      "description": "<p>Collaborative sprints across a variety of disciplines, including API-first Drupal, such as core and contributed web services, Contenta, and Reservoir; and consumer applications for Drupal in any technology that has interest. Lunch will not be provided, but brainpower will be in ample supply!</p>"
     }
 }
