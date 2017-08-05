@@ -83,71 +83,24 @@ h1 {
   margin: 1rem auto;
   padding: 2.5rem;
   text-align: center;
-
-  h1 {
-    color: #0074ff;
-    line-height: 1em;
-    text-transform: uppercase;
-
-    .title-secondary {
-      color: #666;
-      font-size: 68%;
-      display: block;
-    }
-  }
-
-  .title-details {
-    font-size: 115%;
-    margin-bottom: 2rem;
-    padding: 1rem;
-    background-color: #fff;
-
-    .title-location {
-      color: #0074ff;
-      font-weight: bold;
-    }
-
-    .title-date {
-      color: #666;
-    }
-  }
-
-  svg.decoupled-dev-days-logo {
-    width: 25%;
-    height: 100%;
-  }
-
-  @media (max-width: 414px) {
-    svg.decoupled-dev-days-logo {
-      width: 60%;
-      height: 100%;
-    }
-  }
-
-  .cls-1 {
-    fill: none;
-    stroke: #727272;
-    stroke-miterlimit: 10;
-  }
-  .cls-2 {
-    fill: #8f2c8e;
-  }
-  .cls-3 {
-    fill: #f0672f;
-  }
-  .cls-4 {
-    fill: #40b350;
-  }
-  .cls-5 {
-    fill: #0074ff;
-  }
-  .cls-6 {
-    fill: #fff;
-  }
 }
 
-a, a:visited {
-  color: #f0672f;
+header {
+  zoom: 1;
+
+  &:after {
+    clear: both;
+  }
+
+  .header-logo {
+    float: left;
+    width: 25%;
+  }
+
+  .header-nav {
+    float: right;
+    width: 75%;
+  }
 }
 
 @media (min-width: 414px) {
@@ -156,36 +109,18 @@ a, a:visited {
   }
 }
 
-.info {
-  font-size: 80%;
+.content {
+  background-color: #fff;
+  padding: 1rem;
+  
   p {
     padding: 5px 0;
     margin: 0;
   }
 }
+
+@import 'components/logo';
 @import 'components/sponsoring';
 @import 'components/schedule';
 @import 'components/sponsors';
-
-footer {
-  text-align: center;
-  text-transform: uppercase;
-  font: 80% 'League Spartan', sans-serif;
-  margin-bottom: 2rem;
-  padding: 1rem;
-  background-color: transparent;
-
-  ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-
-    li {
-      display: inline;
-    }
-
-    &.footer-second {
-      font-size: 75%;
-    }
-  }
-}
+@import 'components/footer';

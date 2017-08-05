@@ -1,0 +1,31 @@
+footer {
+  text-align: center;
+  text-transform: uppercase;
+  font: 80% 'League Spartan', sans-serif;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  background-color: transparent;
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 1rem 0;
+
+    li {
+      display: inline;
+
+      a {
+        display: block;
+        padding: 0.5rem 1rem;
+
+        &.register-link {
+          border-radius: 0.1em;
+        }
+      }
+    }
+
+    &.footer-second {
+      font: 75% 'Roboto Condensed', sans-serif;
+    }
+  }
+}
