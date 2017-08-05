@@ -1,6 +1,6 @@
-.schedule {
+.program {
 
-  .schedule-session {
+  .program-session {
     display: table;
     border-bottom: 1px dotted #ccc;
     width: 100%;
@@ -10,24 +10,24 @@
       clear: both;
     }
 
-    .schedule-time {
+    .program-time {
       float: left;
       width: 25%;
       padding: 0.5rem 0;
     }
 
-    .schedule-details {
+    .program-details {
       float: right;
       width: 75%;
       padding: 0.5rem 0;
     }
 
-    .schedule-title a {
+    .program-title a {
       font-weight: bold;
     }
   }
 
-  .schedule-session:last-child {
+  .program-session:last-child {
     border: 0;
   }
 }

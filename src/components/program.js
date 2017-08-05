@@ -2,29 +2,29 @@ import React from 'react';
 import {
   Link
 } from 'react-router-dom';
-import data from './schedule-data.json';
+import data from './program-data.json';
 
-export default class Schedule extends React.Component {
+export default class Program extends React.Component {
   render() {
     var rows = [];
     for (var key in data) {
       var row = data[key];
       var l = (
-        <Link to={`schedule/${key}`}>{row.title}</Link>
+        <Link to={`program/${key}`}>{row.title}</Link>
       )
       rows.push(
-        <div className="schedule-session" key={key}>
-          <div className="schedule-time">{row.time}</div>
-          <div className="schedule-details">
-            <div className="schedule-title">{l}</div>
-            <div className="schedule-speaker">{row.speakers}</div>
+        <div className="program-session" key={key}>
+          <div className="program-time">{row.time}</div>
+          <div className="program-details">
+            <div className="program-title">{l}</div>
+            <div className="program-speaker">{row.speakers}</div>
           </div>
         </div>
       );
     }
     var out = (
-      <div className="schedule">
-        <h1>Schedule</h1>
+      <div className="program">
+        <h1>Program</h1>
         <div className="content">
           {rows}
         </div>
@@ -42,7 +42,7 @@ export default class Schedule extends React.Component {
               {speaker}
               <p className="session-time">{session.time}</p>
               <div className="session-description" dangerouslySetInnerHTML={{ __html: session.description}} />
-              <Link to="/schedule">Back to schedule</Link>
+              <Link to="/program">Back to program</Link>
             </div>
           </div>
         );

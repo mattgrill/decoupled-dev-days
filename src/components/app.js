@@ -8,7 +8,7 @@ import '../styles/base.css';
 
 import Index from './index';
 import About from './about';
-import Schedule from './schedule';
+import Program from './program';
 import Venue from './venue';
 import Sponsors from './sponsors';
 import Sponsoring from './sponsoring';
@@ -28,7 +28,7 @@ const App = () => (
         </header>
         <Route exact path="/" component={Index} />
         <Route path="/about" component={About} />
-        <Route path="/schedule/:session?" component={Schedule} />
+        <Route path="/program/:session?" component={Program} />
         <Route path="/venue" component={Venue} />
         <Route path="/sponsors" component={Sponsors} />
         <Route path="/sponsoring" component={Sponsoring} />
