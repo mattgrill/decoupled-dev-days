@@ -4,26 +4,21 @@ import {
 } from 'react-router-dom';
 
 const Footer = () => (
-  <div className="footer">
-    <p>
-      <Link to="/about">
-      About
-      </Link>
-      - <Link to="/schedule">
-      Schedule
-      </Link>
-      - <Link to="/sponsoring">
-      Sponsoring
-      </Link>
-      - <Link to="sponsors">
-      Sponsors
-      </Link>
-      - <a href="http://bit.ly/2tJh1EL" target="_blank" rel="noopener noreferrer">Register</a>
-      - <a href="https://twitter.com/decoupleddays" target="_blank" rel="noopener noreferrer">Twitter</a>
-      - <a href="http://eepurl.com/cRLvXP" target="_blank" rel="noopener noreferrer">Newsletter Signup</a>
-      - <a href="mailto:decoupleddevdays@gmail.com" target="_blank" rel="noopener noreferrer">Email</a>
-    </p>
-  </div>
+  <footer>
+    <ul class="footer-first">
+      <li><Link to="/about">About</Link></li>
+      <li><Link to="/schedule">Schedule</Link></li>
+      <li><Link to="/venue">Venue</Link></li>
+      <li><Link to="/sponsoring">Sponsoring</Link></li>
+      <li><Link to="sponsors">Sponsors</Link></li>
+    </ul>
+    <ul class="footer-second">
+      <li><a href="http://bit.ly/2tJh1EL" target="_blank" rel="noopener noreferrer">Register</a></a>
+      <li><a href="https://twitter.com/decoupleddays" target="_blank" rel="noopener noreferrer">Twitter</a></li>
+      <li><a href="http://eepurl.com/cRLvXP" target="_blank" rel="noopener noreferrer">Subscribe</a></li>
+      <li><a href="mailto:decoupleddevdays@gmail.com" target="_blank" rel="noopener noreferrer">E-mail</a></li>
+    </ul>
+  </footer>
 );
 
 export default Footer;

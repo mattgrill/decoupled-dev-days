@@ -16,7 +16,10 @@ import Footer from './footer';
 const App = () => (
   <Router>
     <div className="wrapper">
-      <Logo />
+      <header>
+        <Logo />
+        <Nav />
+      </header>
       <h1>Decoupled <span className="title-secondary">Developer Days</span></h1>
       <div className="title-details">
         <div className="title-location">New York City</div>
