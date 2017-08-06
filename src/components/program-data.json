@@ -82,5 +82,11 @@
       "speakers": "Ace Hotel New York Lobby, 29 W 29th St, New York, NY 10001",
       "time": "6:00–9:00pm",
       "description": "<p>Come join us at the official post-sessions happy hour on Saturday night to chat all things decoupled Drupal over hors d'oeuvres and libations.</p>"
+    },
+    "sprint": {
+      "title": "Sunday Code Sprints",
+      "speakers": "30 Rockefeller Plaza, New York, NY 10112",
+      "time": "9:00am–5:00pm Sunday",
+      "description": "<p>Collaborative sprints across a variety of disciplines, including API-first Drupal, such as core and contributed web services, Contenta, and Reservoir; and consumer applications for Drupal in any technology that has interest. Lunch will not be provided, but brainpower will be in ample supply!</p>"
     }
 }
