@@ -2,14 +2,14 @@ import React from 'react';
 
 const speakerData = [
   {
-    name: 'Stephen Fluin',
-    role: 'Angular Team',
-    photo: 'assets/speakers/stephen.jpg',
-  },
-  {
     name: 'Ed Faulkner',
     role: 'Ember Team',
     photo: 'assets/speakers/ed.jpg',
+  },
+  {
+    name: 'Stephen Fluin',
+    role: 'Angular Team',
+    photo: 'assets/speakers/stephen.jpg',
   },
   {
     name: 'Sally Young',
@@ -28,9 +28,9 @@ const Speakers = () => (
     <h2>Featured Speakers</h2>
     {speakerData.map(speaker => (
       <section key={speaker.name} className="speaker">
+        <img src={speaker.photo} alt={speaker.name} />
         <p>{speaker.name}</p>
         <p>{speaker.role}</p>
-        <img src={speaker.photo} alt={speaker.name} />
       </section>
     ))}
   </section>

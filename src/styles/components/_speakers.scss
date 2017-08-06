@@ -1,6 +1,14 @@
 .speakers {
+  display: table;
   .speaker {
+    width: 50%;
+    float: left;
+    p {
+      text-align: center;
+    }
     img {
+      display: block;
+      margin: auto;
       border-radius: 50%;
       width: 250px;
       height: auto;
