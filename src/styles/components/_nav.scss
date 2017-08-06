@@ -1,0 +1,51 @@
+nav {
+
+  &.header-nav {
+    margin-bottom: 2rem;
+    display: table;
+
+    &:after {
+      content: "";
+      clear: both;
+    }
+
+    ul {
+      text-align: center;
+    }
+  }
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 1rem 0;
+    display: table;
+    text-align: center;
+
+    &:after {
+      content: "";
+      clear: both;
+    }
+
+    li {
+      display: inline;
+
+      a {
+        display: block;
+        float: left;
+        padding: 0.5rem 0.5rem 0.25rem;
+        margin: 0 0.25rem;
+        text-transform: uppercase;
+        font: 85% 'League Spartan', sans-serif;
+        border-radius: 0.3em;
+        border: 1px solid transparent;
+        transition: all 0.3s;
+
+        &:hover, &:active, &.is-active {
+          background-color: #fff;
+          border: 1px solid #ccc;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}

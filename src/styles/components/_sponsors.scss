@@ -1,14 +1,20 @@
 .sponsors {
-  max-width: 800px;
+  max-width: 680px;
   margin: 0 auto;
 
-  h1 {
-    margin-bottom: 50px;
-  }
   h2 {
-    margin:0;
+    text-transform: uppercase;
+    font-size: 1em;
+    text-align: center;
+    border-top: 1px dotted #ccc;
+    padding-top: 1rem;
+
+    &:first-child {
+      border-top: 0;
+    }
   }
-  .gold, .silver {
+
+  .venue, .gold, .silver {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -21,13 +27,25 @@
     padding: 1rem .25rem;
     max-width: 255px;
     flex-shrink: 2;
+
     svg {
       width: 100%;
       height: auto;
     }
+
+    img {
+      max-width: 100%;
+    }
+  }
+}
+
+.footer-sponsors {
+
+  h1 {
+    display: none;
   }
 
-  .sponsor img {
-    max-width: 100%;
+  .content {
+    background-color: transparent;
   }
 }

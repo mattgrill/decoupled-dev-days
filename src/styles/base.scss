@@ -58,95 +58,94 @@ html, body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font: 1.2em/1.6em 'Roboto Condensed', sans-serif;
+  font: 1.1em/1.6em 'Roboto Condensed', sans-serif;
   background: #eee url('images/background.png') repeat;
   color: #333;
 }
 
-h1 {
-  font-family: 'League Spartan', sans-serif;
+a {
+  color: #0074ff;
+  text-decoration: none;
+  transition: color 0.3s;
+
+  &:hover,
+  &:active {
+    color: #0041cc;
+    text-decoration: underline;
+  }
+
+  &.register-link {
+    border-radius: 0.3em;
+    border: 1px solid transparent;
+    background-color: #0074ff;
+    color: #fff;
+    transition: all 0.3s;
+
+    &:hover, &:active {
+      background-color: #0041cc;
+      text-decoration: none;
+      border: 1px solid #0074ff;
+      color: #fff;
+    }
+  }
 }
 
-.wrapper {
+ul li {
+  list-style-type: square;
+}
+
+h1 {
+  font: 1.3em 'League Spartan', sans-serif;
+  color: #0074ff;
+}
+
+.main {
   margin: 1rem auto;
-  padding: 2.5rem;
-  text-align: center;
+  display: table;
 
-  h1 {
-    color: #0074ff;
-    line-height: 1em;
-    text-transform: uppercase;
+  &:after {
+    content: "";
+    display: block;
+    clear: both;
+  }
 
-    .title-secondary {
-      color: #666;
-      font-size: 68%;
-      display: block;
+  .main-first {
+    width: 20%;
+    float: left;
+    text-align: center;
+  }
+
+  .main-second {
+    width: 75%;
+    float: right;
+    margin-top: 2.5rem;
+    color: #666;
+
+    h1 {
+      padding: 0 1rem;
+      margin-top: 4.2rem;
     }
-  }
-
-  .title-details {
-    font-size: 115%;
-    margin-bottom: 2rem;
-    padding: 1rem;
-    background-color: #fff;
-
-    .title-location {
-      color: #0074ff;
-      font-weight: bold;
-    }
-
-    .title-date {
-      color: #666;
-    }
-  }
-
-  svg.decoupled-dev-days-logo {
-    width: 25%;
-    height: 100%;
-  }
-
-  @media (max-width: 414px) {
-    svg.decoupled-dev-days-logo {
-      width: 60%;
-      height: 100%;
-    }
-  }
-
-  .cls-1 {
-    fill: none;
-    stroke: #727272;
-    stroke-miterlimit: 10;
-  }
-  .cls-2 {
-    fill: #8f2c8e;
-  }
-  .cls-3 {
-    fill: #f0672f;
-  }
-  .cls-4 {
-    fill: #40b350;
-  }
-  .cls-5 {
-    fill: #0074ff;
-  }
-  .cls-6 {
-    fill: #fff;
   }
 }
 
 @media (min-width: 414px) {
-  .wrapper {
+  .main {
     max-width: 960px;
   }
 }
 
-@import 'components/sponsoring';
-@import 'components/sponsors';
-
-.footer {
-  text-align: center;
-  font-size: 80%;
-  margin-bottom: 2rem;
-  padding: 1rem;
+.content {
   background-color: #fff;
+  padding: 1rem;
+
+  p {
+    padding: 5px 0;
+    margin: 0;
+  }
 }
+
+@import 'components/logo';
+@import 'components/nav';
+@import 'components/program';
+@import 'components/sponsors';
+@import 'components/footer';
