@@ -25,9 +25,20 @@ export default class Program extends React.Component {
     var out = (
       <div className="program">
         <h1>Program</h1>
+        <h3>Saturday, August 19th</h3>
         <div className="content">
           {rows}
         </div>
+        <br />
+        <h3>Sunday, August 20th</h3>
+          <div className="content">
+            <div className="program-session">
+              <div className="program-time">9:00am-5:00pm</div>
+              <div className="program-details">
+                <div className="program-title">Sprints</div>
+              </div>
+            </div>
+          </div>
       </div>
     );
     if (this.props.match.params.session) {
