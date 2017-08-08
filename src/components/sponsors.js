@@ -1,5 +1,4 @@
 import React from 'react';
-import Pantheon from './sponsors/pantheon';
 import Acquia from './sponsors/acquia';
 import Mediacurrent from './sponsors/mediacurrent';
 import Fourkitchens from './sponsors/fourkitchens';
