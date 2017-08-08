@@ -39,7 +39,7 @@ const Sponsors = () => (
           <a href="https://www.lullabot.com/"><Lullabot /></a>
         </div>
         <div className="sponsor">
-          <a href="https://pantheon.io/"><Pantheon /></a>
+          <a href="https://pantheon.io/"><img src="assets/sponsors/pantheon.png" alt="Pantheon" title="Pantheon"/></a>
         </div>
       </div>
     </div>
