@@ -21,7 +21,7 @@
   }
 
   nav ul,
-  footer nav ul {
+  footer .footer-first nav ul {
     width: 100%;
 
     li {
@@ -33,6 +33,14 @@
         text-align: left;
       }
     }
+  }
+
+  footer ul.footer-second li {
+    float: left;
+  }
+
+  .program .program-session {
+    padding: 1rem 0;
   }
 }
 
@@ -61,6 +69,25 @@
 
     a {
       float: left;
+    }
+  }
+
+  footer ul li {
+    float: left;
+  }
+
+  .program .program-session {
+
+    .program-time {
+      float: left;
+      width: 25%;
+      padding: 0.5rem 0;
+    }
+
+    .program-details {
+      float: right;
+      width: 75%;
+      padding: 0.5rem 0;
     }
   }
 }
