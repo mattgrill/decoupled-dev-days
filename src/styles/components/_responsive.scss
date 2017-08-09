@@ -1,0 +1,35 @@
+// Mobile and tablet
+@media (max-width: 760px) {
+
+  .main-first,
+  .main-second {
+    width: 100%;
+  }
+
+  svg.decoupled-dev-days-logo {
+    width: 50%;
+  }
+
+  nav ul li {
+    display: block;
+
+    a {
+      display: block;
+      float: none;
+      clear: both;
+    }
+  }
+}
+
+// Desktop
+@media (min-width: 414px) {
+
+  .main {
+    max-width: 960px;
+  }
+
+  svg.decoupled-dev-days-logo {
+    width: 60%;
+    height: 100%;
+  }
+}
