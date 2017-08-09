@@ -44,8 +44,8 @@
   }
 }
 
-// Desktop for layout and logo
-@media (min-width: 414px) {
+// Desktop general
+@media (min-width: 760px) {
 
   .main {
     max-width: 960px;
@@ -55,10 +55,6 @@
     width: 60%;
     height: 100%;
   }
-}
-
-// Desktop general
-@media (min-width: 760px) {
 
   .header-logo .title-details {
     margin-bottom: 2rem;
