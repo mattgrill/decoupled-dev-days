@@ -31,7 +31,6 @@
         float: none;
         clear: both;
         text-align: left;
-        width: 100%;
       }
     }
   }
@@ -52,6 +51,10 @@
 
 // Desktop general
 @media (min-width: 760px) {
+
+  .header-logo .title-details {
+    margin-bottom: 2rem;
+  }
 
   nav ul li {
     display: inline;
