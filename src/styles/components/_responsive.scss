@@ -21,14 +21,13 @@
   }
 
   nav ul,
-  footer ul {
+  footer nav ul {
     width: 100%;
 
     li {
       display: block;
 
       a {
-        display: block;
         float: none;
         clear: both;
         text-align: left;
@@ -56,5 +55,9 @@
 
   nav ul li {
     display: inline;
+
+    a {
+      float: left;
+    }
   }
 }
