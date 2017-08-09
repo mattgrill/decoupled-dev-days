@@ -20,7 +20,8 @@
     margin-bottom: 0;
   }
 
-  nav ul {
+  nav ul,
+  footer ul {
     width: 100%;
 
     li {
@@ -31,6 +32,7 @@
         float: none;
         clear: both;
         text-align: left;
+        width: 100%;
       }
     }
   }
