@@ -1,27 +1,42 @@
 // Mobile and tablet
 @media (max-width: 760px) {
 
-  .main-first,
-  .main-second {
-    width: 100%;
+  .main {
+    .main-first,
+    .main-second {
+      width: 100%;
+    }
+
+    .main-second {
+      margin-top: 0.5rem;
+    }
   }
 
   svg.decoupled-dev-days-logo {
     width: 50%;
   }
 
-  nav ul li {
-    display: block;
+  .header-logo .title-details {
+    margin-bottom: 0;
+  }
 
-    a {
+  nav ul {
+    width: 100%;
+
+    li {
       display: block;
-      float: none;
-      clear: both;
+
+      a {
+        display: block;
+        float: none;
+        clear: both;
+        text-align: left;
+      }
     }
   }
 }
 
-// Desktop
+// Desktop for layout and logo
 @media (min-width: 414px) {
 
   .main {
@@ -31,5 +46,13 @@
   svg.decoupled-dev-days-logo {
     width: 60%;
     height: 100%;
+  }
+}
+
+// Desktop general
+@media (min-width: 760px) {
+
+  nav ul li {
+    display: inline;
   }
 }

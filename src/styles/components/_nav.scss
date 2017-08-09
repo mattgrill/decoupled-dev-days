@@ -26,25 +26,21 @@ nav {
       clear: both;
     }
 
-    li {
-      display: inline;
+    li a {
+      display: block;
+      float: left;
+      padding: 0.5rem 0.5rem 0.25rem;
+      margin: 0 0.25rem;
+      text-transform: uppercase;
+      font: 85% 'League Spartan', sans-serif;
+      border-radius: 0.3em;
+      border: 1px solid transparent;
+      transition: all 0.3s;
 
-      a {
-        display: block;
-        float: left;
-        padding: 0.5rem 0.5rem 0.25rem;
-        margin: 0 0.25rem;
-        text-transform: uppercase;
-        font: 85% 'League Spartan', sans-serif;
-        border-radius: 0.3em;
-        border: 1px solid transparent;
-        transition: all 0.3s;
-
-        &:hover, &:active, &.is-active {
-          background-color: #fff;
-          border: 1px solid #ccc;
-          text-decoration: none;
-        }
+      &:hover, &:active, &.is-active {
+        background-color: #fff;
+        border: 1px solid #ccc;
+        text-decoration: none;
       }
     }
   }
