@@ -1,5 +1,4 @@
 import React from 'react';
-import Pantheon from './sponsors/pantheon';
 import Acquia from './sponsors/acquia';
 import Mediacurrent from './sponsors/mediacurrent';
 import Fourkitchens from './sponsors/fourkitchens';
@@ -39,7 +38,7 @@ const Sponsors = () => (
           <a href="https://www.lullabot.com/"><Lullabot /></a>
         </div>
         <div className="sponsor">
-          <a href="https://pantheon.io/"><Pantheon /></a>
+          <a href="https://pantheon.io/"><img src="assets/sponsors/pantheon.png" alt="Pantheon" title="Pantheon"/></a>
         </div>
       </div>
     </div>

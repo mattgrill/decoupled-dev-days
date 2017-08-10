@@ -125,16 +125,6 @@ h1 {
       padding: 0 1rem;
       margin-top: 4.2rem;
     }
-
-    h2, h3 {
-      padding: 0 1rem;
-    }
-  }
-}
-
-@media (min-width: 414px) {
-  .main {
-    max-width: 960px;
   }
 }
 
@@ -148,6 +138,7 @@ h1 {
   }
 }
 
+@import 'components/responsive';
 @import 'components/logo';
 @import 'components/nav';
 @import 'components/program';
