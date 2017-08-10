@@ -128,12 +128,6 @@ h1 {
   }
 }
 
-@media (min-width: 414px) {
-  .main {
-    max-width: 960px;
-  }
-}
-
 .content {
   background-color: #fff;
   padding: 1rem;
@@ -144,6 +138,7 @@ h1 {
   }
 }
 
+@import 'components/responsive';
 @import 'components/logo';
 @import 'components/nav';
 @import 'components/program';
