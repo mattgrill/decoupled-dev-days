@@ -27,6 +27,9 @@ const Sponsors = () => (
         <div className="sponsor">
           <a href="https://www.phase2technology.com/"><img src="assets/sponsors/phase2.png" alt="Phase2" title="Phase2"/></a>
         </div>
+        <div className="sponsor">
+          <a href="https://atendesigngroup.com/"><img src="assets/sponsors/aten-horizontal-rgb-lg.png" alt="Aten Design Group" title="Aten Design Group"/></a>
+        </div>
       </div>
 
       <h2>Silver Sponsors</h2>
