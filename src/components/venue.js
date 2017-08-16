@@ -8,8 +8,9 @@ const Venue = () => (
       <p>Thank you to our venue sponsor NBCUniversal for graciously hosting the inaugural edition of the conference!</p>
 
       <h2>Important information about 30 Rockefeller Plaza</h2>
-      <p><strong>NBCUniversal security requires that all visitors have a valid form of identification</strong> in order to be issued a visitor pass which will allow you to enter and exit the building. Please ensure that the name you used on your registration matches the name on your form of identification. If that is not the case, please <a href="mailto:decoupleddevdays@gmail.com">contact us</a> immediately so we can ensure you can enter the venue.</p>
-      <p>Upon entering 30 Rockefeller Plaza, volunteers from NBCUniversal and Decoupled Dev Days staff will be available to help you with the security sign-in procedure and guide you past the turnstiles, into the elevators, and up to the conference location.</p>
+      <p><strong>Rockefeller Center security requires that all visitors have a valid form of identification</strong> in order to be issued a guest pass which will allow you to enter and exit the building. Please ensure that the name you used on your registration matches the name on your form of identification. If that is not the case, please <a href="mailto:decoupleddevdays@gmail.com">contact us</a> immediately so we can ensure you can enter the venue.</p>
+      <p>Upon entering 30 Rockefeller Plaza please go directly to the NBCUniversal Visitors Registration Office. Volunteers from NBCUniversal and Decoupled Dev Days staff will be available to help you with the security sign-in procedure and guide you past the turnstiles, into the elevators, and up to the conference location.</p>
+      <p><img src="assets/venue.png" alt="Map showing venue location in Midtown Manhattan" /></p>
 
       <h2>How to get here</h2>
       <p>New York City can be difficult to navigate, but fortunately there are many different means of arriving in the area and getting around the city. If you are coming from elsewhere in the United States, we strongly recommend you avoid driving, as parking can be prohibitively expensive in Midtown Manhattan.</p>
