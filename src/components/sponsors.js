@@ -25,6 +25,11 @@ const Sponsors = () => (
           <a href="https://www.mediacurrent.com/"><Mediacurrent /></a>
         </div>
         <div className="sponsor">
+          <a href="https://www.mlssoccer.com/">
+            <img src="assets/sponsors/MLS15.png" alt="MLS" title="MLS" />
+          </a>
+        </div>
+        <div className="sponsor">
           <a href="https://www.phase2technology.com/"><img src="assets/sponsors/phase2.png" alt="Phase2" title="Phase2"/></a>
         </div>
         <div className="sponsor">
@@ -34,6 +39,12 @@ const Sponsors = () => (
 
       <h2>Silver Sponsors</h2>
       <div className="silver">
+      <div className="sponsor">
+        <a href="https://www.amazeelabs.com">
+          <img src="assets/sponsors/amazeeio_with_text_square.png" alt="Amazee Labs" title="Amazee Labs" />
+        </a>
+      </div>
+
         <div className="sponsor">
           <a href="https://www.fourkitchens.com/"><Fourkitchens /></a>
         </div>
